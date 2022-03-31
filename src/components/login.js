@@ -40,6 +40,7 @@ export default function Login() {
                         onFailure={onLoginFailure}
                         cookiePolicy={'single_host_origin'}
                         isSignedIn={true}
+                        redirectUri='http://localhost:3000/Incidence'
                         />
                 </div>
             }

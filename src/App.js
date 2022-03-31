@@ -27,10 +27,7 @@ function App() {
                       <option value="Unit 103"></option>
                       <option value="Unit 104"></option>
                   </datalist>
-
-
-                      {/* <button>Sign In with Google</button> */}
-                      <LoginBtn className="login-button"/>
+                  <LoginBtn />
                   </div>
               </div>
           </div>
